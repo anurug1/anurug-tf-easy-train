@@ -1,6 +1,6 @@
 import tensorflow as tf
 from tensorflow.keras import layers, Model, Input
-from tensorflow.keras.applications import MobileNetV2
+from tensorflow.keras.applications import *
 from tensorflow.keras.callbacks import *
 import matplotlib.pyplot as plt
 import numpy as np
@@ -66,9 +66,11 @@ class Easytf:
         self.val_ds = self.val_ds.map(lambda x, y: (normalization_layer(x), y))
         self.test_ds = self.test_ds.map(lambda x, y: (normalization_layer(x), y))
 
-    def create_model(self, custom_layers=None):
+    def create_model(self, custom_layers=None, base_model=None):
         inputs = Input(shape=(self.img_height, self.img_width, 3))
-        base_model = MobileNetV2(weights='imagenet', include_top=False)
+        if base_model is None:
+            raise ValueError("base_model must be provided")
+        base_model = base_model(weights='imagenet', include_top=False)
         base_model.trainable = False
         
         x = base_model(inputs, training=False)
