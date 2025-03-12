@@ -26,6 +26,10 @@ Install Tensorflow and all i need , with pip
 ```bash
   pip install tensorflow scikit-learn matplotlib seaborn pillow
 ```
+```bash
+  pip install fastapi uvicorn python-multipart
+```
+
 
 ## How to use ?
 
