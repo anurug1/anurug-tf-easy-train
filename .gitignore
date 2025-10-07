@@ -1,0 +1,13 @@
+# Image files
+*.jpg
+*.jpeg
+*.png
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
