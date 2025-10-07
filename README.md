@@ -1,11 +1,11 @@
 
 # Tensorflow Easy Train By Anurug
-
+[![Python](https://img.shields.io/badge/Python%20Recommend-3.11.*-blue)](#) [![Tensorflow](https://img.shields.io/badge/Tensorflow%20pypi%20package-2.20.0-green)](https://pypi.org/project/tensorflow/)
 TensorFlow Easy Train is a tool that makes training classification models simple and accessible. Even without deep expertise in machine learning, you can easily train models and integrate them into web applications or build APIs for your projects with ease.
 
 
 ## Google Colab
-Use Google [Click!](https://colab.research.google.com/drive/1aZTR9B1Pz8H4fjtB6TEZG-XFWjNhbEaQ?usp=sharing) *Choice
+ [Use Google Colab Click!](https://colab.research.google.com/drive/1aZTR9B1Pz8H4fjtB6TEZG-XFWjNhbEaQ?usp=sharing) *Optinal
 ## Installation
 
 Install Tensorflow Easy Train with Anaconda or Miniconda
