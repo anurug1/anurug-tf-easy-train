@@ -1,6 +1,7 @@
 
 # Tensorflow Easy Train By Anurug
 [![Python](https://img.shields.io/badge/Python%20Recommend-3.11.*-blue)](#) [![Tensorflow](https://img.shields.io/badge/Tensorflow%20pypi%20package-2.20.0-green)](https://pypi.org/project/tensorflow/)
+
 TensorFlow Easy Train is a tool that makes training classification models simple and accessible. Even without deep expertise in machine learning, you can easily train models and integrate them into web applications or build APIs for your projects with ease.
 
 
@@ -28,6 +29,10 @@ Install Tensorflow and all i need , with pip
 ```
 ```bash
   pip install fastapi uvicorn python-multipart
+```
+ipykernel
+```bash
+  python -m ipykernel install --user --name=tensorflow --display-name "Python (TensorFlow)"
 ```
 
 
