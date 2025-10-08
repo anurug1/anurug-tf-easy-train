@@ -1,0 +1,27 @@
+{
+  "model_name": "LSTM_v2_Imputed",
+  "window_size": 30,
+  "features": [
+    "prices",
+    "rolling_mean_7",
+    "rolling_mean_30",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "pct_change_1",
+    "pct_change_7",
+    "weekday",
+    "day_in_month",
+    "cpi",
+    "usd_idr",
+    "Temperature",
+    "Curah Hujan",
+    "Kelembapan"
+  ],
+  "n_features": 15,
+  "metrics": {
+    "mse": 247103.8780057431,
+    "mae": 417.0390560938812,
+    "rmse": 497.09544154593
+  }
+}
